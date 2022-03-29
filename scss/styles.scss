@@ -350,7 +350,8 @@ footer {
     height: 100vh;
     min-height: 500px;
     max-height: 1080px;
-    background: url(../images/img.jpg);
+    background: url(../images/lead-bg.jpg);
+    background-position: top;
     background-size: cover;
     padding: 15px;
     overflow: hidden;
@@ -393,7 +394,8 @@ footer {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba($base-color-hover, 0.8);
+    background: transparent !important;
+    // background: rgba($base-color-hover, 0.8);
     z-index: 1;
 }
 
